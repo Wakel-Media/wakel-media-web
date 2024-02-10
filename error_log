@@ -1,0 +1,1 @@
+[03-Feb-2024 12:43:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/wakerdxu/public_html/new/core/vendor/composer/platform_check.php on line 24

@@ -1,0 +1,526 @@
+[2024-02-07 01:25:00] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 1863,
+     'name' => 'soulchill 35000 Crystal',
+     'price' => 62.56637168141592,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'سول شيل كريستال api',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 01:27:22] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 1863,
+     'name' => 'soulchill 35000 Crystal',
+     'price' => 62.56637168141592,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'سول شيل كريستال api',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 01:28:18] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 1863,
+     'name' => 'soulchill 35000 Crystal',
+     'price' => 62.56637168141592,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'سول شيل كريستال api',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 01:32:39] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 1863,
+     'name' => 'soulchill 35000 Crystal',
+     'price' => 62.56637168141592,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'سول شيل كريستال api',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 01:33:52] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 1863,
+     'name' => 'soulchill 35000 Crystal',
+     'price' => 62.56637168141592,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'سول شيل كريستال api',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 01:34:18] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 1863,
+     'name' => 'soulchill 35000 Crystal',
+     'price' => 62.56637168141592,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'سول شيل كريستال api',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 01:36:06] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:46:56] local.ERROR: Undefined array key 6 {"exception":"[object] (ErrorException(code: 0): Undefined array key 6 at /home/wakerdxu/public_html/new/core/app/Http/Controllers/Admin/ServiceController.php:166)
+[stacktrace]
+#0 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/wakerdxu/public_html/new/core/app/Http/Controllers/Admin/ServiceController.php(166): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\\Http\\Controllers\\Admin\\ServiceController->apiServices()
+#3 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#4 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#5 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\\Routing\\Route->runController()
+#6 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\\Routing\\Route->run()
+#7 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#8 /home/wakerdxu/public_html/new/core/app/Http/Middleware/RedirectIfNotAdmin.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): App\\Http\\Middleware\\RedirectIfNotAdmin->handle()
+#10 /home/wakerdxu/public_html/new/core/app/Http/Middleware/LanguageMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#12 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#14 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#16 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#18 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#20 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#21 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#23 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#25 /home/wakerdxu/public_html/new/core/vendor/laramin/utility/src/Utility.php(12): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laramin\\Utility\\Utility->handle()
+#27 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(799): Illuminate\\Pipeline\\Pipeline->then()
+#29 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#30 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#31 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#32 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#33 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#34 /home/wakerdxu/public_html/new/core/vendor/beyondcode/laravel-query-detector/src/QueryDetectorMiddleware.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): BeyondCode\\QueryDetector\\QueryDetectorMiddleware->handle()
+#36 /home/wakerdxu/public_html/new/core/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#37 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle()
+#38 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#40 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#41 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#43 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#44 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#46 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#48 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#50 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#52 /home/wakerdxu/public_html/new/core/vendor/laramin/utility/src/Utility.php(12): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laramin\\Utility\\Utility->handle()
+#54 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#56 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#57 /home/wakerdxu/public_html/new/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#58 {main}
+"} 
+[2024-02-07 10:47:18] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:49:10] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:49:34] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:49:57] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:52:44] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:54:43] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 10:54:55] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 189,
+     'name' => 'jawaker Automatic',
+     'price' => 0.0001117215,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'jawaker tokens',
+     'available' => true,
+     'qty_values' => 
+    (object) array(
+       'min' => '4250',
+       'max' => '1000000',
+    ),
+     'product_type' => 'amount',
+  ),
+)  
+[2024-02-07 17:07:55] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 161,
+     'name' => 'Free Fire 100 Gems',
+     'price' => 0.90335,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'FREE FIRE GLOBAL',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 17:08:41] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 161,
+     'name' => 'Free Fire 100 Gems',
+     'price' => 0.90335,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'FREE FIRE GLOBAL',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 17:17:34] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 161,
+     'name' => 'Free Fire 100 Gems',
+     'price' => 0.90335,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'FREE FIRE GLOBAL',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-07 17:19:50] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 161,
+     'name' => 'Free Fire 100 Gems',
+     'price' => 0.90335,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'FREE FIRE GLOBAL',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-09 12:49:11] local.DEBUG: array (
+  'item' => 
+  (object) array(
+     'id' => 161,
+     'name' => 'Free Fire 100 Gems',
+     'price' => 0.90335,
+     'params' => 
+    array (
+      0 => 'User ID',
+    ),
+     'category_name' => 'FREE FIRE GLOBAL',
+     'available' => true,
+     'qty_values' => NULL,
+     'product_type' => 'package',
+  ),
+)  
+[2024-02-09 18:23:28] local.ERROR: View [admin.setting.social_credential] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [admin.setting.social_credential] not found. at /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137)
+[stacktrace]
+#0 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
+#1 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\\View\\FileViewFinder->find()
+#2 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(1031): Illuminate\\View\\Factory->make()
+#3 /home/wakerdxu/public_html/new/core/app/Http/Controllers/Admin/GeneralSettingController.php(202): view()
+#4 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\\Http\\Controllers\\Admin\\GeneralSettingController->socialiteCredentials()
+#5 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#6 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#7 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\\Routing\\Route->runController()
+#8 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\\Routing\\Route->run()
+#9 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#10 /home/wakerdxu/public_html/new/core/app/Http/Middleware/RedirectIfNotAdmin.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): App\\Http\\Middleware\\RedirectIfNotAdmin->handle()
+#12 /home/wakerdxu/public_html/new/core/app/Http/Middleware/LanguageMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#14 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#16 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#18 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#20 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#22 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#23 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#25 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#27 /home/wakerdxu/public_html/new/core/vendor/laramin/utility/src/Utility.php(12): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laramin\\Utility\\Utility->handle()
+#29 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(799): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#32 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#33 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#34 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#35 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#36 /home/wakerdxu/public_html/new/core/vendor/beyondcode/laravel-query-detector/src/QueryDetectorMiddleware.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#37 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): BeyondCode\\QueryDetector\\QueryDetectorMiddleware->handle()
+#38 /home/wakerdxu/public_html/new/core/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle()
+#40 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#41 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#42 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#43 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#45 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#46 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#48 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#50 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#52 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#54 /home/wakerdxu/public_html/new/core/vendor/laramin/utility/src/Utility.php(12): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laramin\\Utility\\Utility->handle()
+#56 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#57 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#58 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#59 /home/wakerdxu/public_html/new/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#60 {main}
+"} 
+[2024-02-09 18:28:32] local.ERROR: View [admin.setting.social_credential] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [admin.setting.social_credential] not found. at /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137)
+[stacktrace]
+#0 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths()
+#1 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\\View\\FileViewFinder->find()
+#2 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(1031): Illuminate\\View\\Factory->make()
+#3 /home/wakerdxu/public_html/new/core/app/Http/Controllers/Admin/GeneralSettingController.php(202): view()
+#4 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\\Http\\Controllers\\Admin\\GeneralSettingController->socialiteCredentials()
+#5 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#6 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#7 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\\Routing\\Route->runController()
+#8 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\\Routing\\Route->run()
+#9 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#10 /home/wakerdxu/public_html/new/core/app/Http/Middleware/RedirectIfNotAdmin.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): App\\Http\\Middleware\\RedirectIfNotAdmin->handle()
+#12 /home/wakerdxu/public_html/new/core/app/Http/Middleware/LanguageMiddleware.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#14 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#16 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#18 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#20 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#22 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#23 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#25 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#27 /home/wakerdxu/public_html/new/core/vendor/laramin/utility/src/Utility.php(12): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laramin\\Utility\\Utility->handle()
+#29 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(799): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#32 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#33 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#34 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#35 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#36 /home/wakerdxu/public_html/new/core/vendor/beyondcode/laravel-query-detector/src/QueryDetectorMiddleware.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#37 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): BeyondCode\\QueryDetector\\QueryDetectorMiddleware->handle()
+#38 /home/wakerdxu/public_html/new/core/vendor/barryvdh/laravel-debugbar/src/Middleware/InjectDebugbar.php(59): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle()
+#40 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#41 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#42 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#43 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#44 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#45 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#46 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#48 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#49 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#50 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#51 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#52 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#53 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#54 /home/wakerdxu/public_html/new/core/vendor/laramin/utility/src/Utility.php(12): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#55 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laramin\\Utility\\Utility->handle()
+#56 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#57 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#58 /home/wakerdxu/public_html/new/core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#59 /home/wakerdxu/public_html/new/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#60 {main}
+"} 
