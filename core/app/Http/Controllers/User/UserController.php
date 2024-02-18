@@ -160,14 +160,7 @@ class UserController extends Controller
         $categories = Category::active()->whereHas('services', function ($services) {
             return $services->active();
         })->with('services')->orderBy('name')->get();
-        $user = auth()->user();
-        $myFavorites = [];
-        if($user) {
-            $favorites = $user->favorites;
-            if($favorites){
-                $myFavorites = $favorites->pluck('service_id')->toArray();
-            }
-        }
+        $myFavorites = auth()->user()->favorites->pluck('service_id')->toArray();
         return view($this->activeTemplate . 'user.services.services', compact('pageTitle', 'categories', 'myFavorites'));
     }
 
