@@ -5,8 +5,8 @@ namespace App\Models;
 use App\Traits\Searchable;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Laravel\Sanctum\HasApiTokens;
 use App\Constants\Status;
+use Laravel\Passport\HasApiTokens;
 
 class User extends Authenticatable
 {

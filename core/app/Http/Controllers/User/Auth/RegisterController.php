@@ -119,6 +119,33 @@ class RegisterController extends Controller
             ?: redirect($this->redirectPath());
     }
 
+    public function registerApi(Request $request) {
+        
+        $this->validator($request->all())->validate();
+
+        if (preg_match("/[^a-z0-9_]/",
+            trim($request->username)
+        )) {
+            $notify[] = ['info', 'Username can contain only small letters, numbers and underscore.'];
+            $notify[] = ['error', 'No special character, space or capital letters in username.'];
+            return response($notify, 422);
+        }
+
+
+        $exist = User::where('mobile', $request->mobile_code . $request->mobile)->first();
+        if ($exist) {
+            $notify[] = ['error', 'The mobile number already exists'];
+            return response($notify, 422);
+        }
+        $user = $this->create($request->all());
+        event(new Registered($user));
+        $token = $user->createToken('Laravel Password Grant Client')->accessToken;
+
+        // $this->guard()->login($user);
+        $response = ['token' => $token];
+        return response($response, 200);
+    }
+
 
     /**
      * Create a new user instance after a valid registration.
@@ -149,14 +176,14 @@ class RegisterController extends Controller
         $user->ts = 0;
         $user->tv = 1;
         $user->save();
-
-
-        $adminNotification = new AdminNotification();
-        $adminNotification->user_id = $user->id;
-        $adminNotification->title = 'New member registered';
-        $adminNotification->click_url = urlPath('admin.users.detail', $user->id);
-        $adminNotification->save();
-
+        
+        if($user->id) {
+            $adminNotification = new AdminNotification();
+            $adminNotification->user_id = $user->id;
+            $adminNotification->title = 'New member registered';
+            $adminNotification->click_url = urlPath('admin.users.detail', $user->id);
+            $adminNotification->save();
+        }
 
         //Login Log Create
         $ip = getRealIP();

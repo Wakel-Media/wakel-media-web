@@ -26,4 +26,4 @@ Route::post('cashmaal', 'Cashmaal\ProcessController@ipn')->name('Cashmaal');
 Route::post('mercado-pago', 'MercadoPago\ProcessController@ipn')->name('MercadoPago');
 Route::post('authorize', 'Authorize\ProcessController@ipn')->name('Authorize');
 Route::get('nmi', 'NMI\ProcessController@ipn')->name('NMI');
-Route::any('two-checkout', 'TwoCheckout\ProcessController@ipn')->name('TwoCheckout');
+// Route::any('two-checkout', 'TwoCheckout\ProcessController@ipn')->name('TwoCheckout');

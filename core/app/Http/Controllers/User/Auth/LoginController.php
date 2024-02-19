@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\User\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use App\Models\UserLogin;
+use Hash;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 
@@ -83,6 +85,24 @@ class LoginController extends Controller
 
 
         return $this->sendFailedLoginResponse($request);
+    }
+    public function loginApi(Request $request) {
+        $this->validateLogin($request);
+
+        $user = User::where('username', $request->username)->first();
+        if ($user) {
+            if (Hash::check($request->password, $user->password)) {
+                $token = $user->createToken('Laravel Password Grant Client')->accessToken;
+                $response = ['token' => $token];
+                return response($response, 200);
+            } else {
+                $response = ["message" => "Password mismatch"];
+                return response($response, 422);
+            }
+        } else {
+            $response = ["message" =>'User does not exist'];
+            return response($response, 422);
+        }
     }
 
     public function findUsername()
